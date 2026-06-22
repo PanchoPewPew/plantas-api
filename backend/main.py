@@ -42,7 +42,7 @@ model = timm.create_model(
 
 model.load_state_dict(
     torch.load(
-        "plant_disease_model.pth",
+        "backend/plant_disease_model.pth",
         map_location=device
     )
 )
